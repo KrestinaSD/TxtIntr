@@ -34,7 +34,7 @@ void print_help(){
     
     
 int main(int argc, char* argv[]) {
-    // проверяем количество введенных данных(<pusk> -о <операция> op1 ...; мин = 8 макс = 9
+    // проверяем количество введенных данных(<pusk> -о <операция> op1 ...; мин = 8 макс = 10 pyfxtybq
     if ((argc < 8) or (argc > 10)) { // от 5 до 7
         print_help();
         return 1;
